@@ -1,13 +1,10 @@
 # lab0-starter
 
----
-layout: post
 title:  "Laboratorio 0"
 date:   2017-01-01
 category: lab
 description: >
     En este laboratorio van a verificar si tienen las "habilidades" necesarias de programación para este curso. Crearan una cuenta de github, aprenderán a utilizar git y realizarán unos ejercicios en Java.
----
 
 #### Empezando
 
@@ -27,11 +24,11 @@ Como vamos a estar utilizando una distribución de Linux (**_Ubuntu_**) unicamen
 
 Pueden crear una cuenta en **Github** con su correo [aqui](https://github.com/). Les recomendamos que pongan un username decente/profesional que contenga su nombre, si es posible, no algo como `holypotato1994`.
 
-[![creando cuenta github](/assets/img/labs/lab0_githubfig1.png)](/assets/img/labs/lab0_githubfig1.png)
+[![creando cuenta github](img/lab0_githubfig1.png)](img/lab0_githubfig1.png)
 
 Cuando ya tengan creada su cuenta ahora tienen que ir [aquí](https://education.github.com/pack) para activar su **Github student pack** que les permitirá tener repositorios privados ilimitados (solo queremos que ustedes y el staff de cc3 lo puedan ver) durante su vida estudiantil.
 
-[![activando el student pack](/assets/img/labs/github_student.png)](/assets/img/labs/github_student.png)
+[![activando el student pack](img/github_student.png)](img/github_student.png)
 
 con todo esto listo podemos empezar realmente el lab.
 
@@ -170,21 +167,21 @@ Ahora vamos a **Github** a crear un repositorio "remoto" para eso tenemos que ha
 
 En la pagina principal, dar click en new repository:
 
-[![fig1_git](/assets/img/labs/lab0_gitfig1.png)](/assets/img/labs/lab0_gitfig1.png)
+[![fig1_git](img/lab0_gitfig1.png)](img/lab0_gitfig1.png)
 
 Luego tenemos que llenar los siguientes campos de la siguiente manera:
 
-[![fig2_git](/assets/img/labs/lab0_gitfig2.png)](/assets/img/labs/lab0_gitfig2.png)
+[![fig2_git](img/lab0_gitfig2.png)](img/lab0_gitfig2.png)
 
 Luego de crearlo nos tiene que aparecer algo asi:
 
-[![fig3_git](/assets/img/labs/lab0_gitfig3.png)](/assets/img/labs/lab0_gitfig3.png)
+[![fig3_git](img/lab0_gitfig3.png)](img/lab0_gitfig3.png)
 
 ya que tenemos esto podemos actualizar el repositorio remoto con el local de la siguiente manera:
 
 Primero agregamos un repositorio remoto a nuestro repositorio local, para eso tienen que copiar la url del https que les aparece en **Github** cuando crearon el repositorio:
 
-![fig4_git](/assets/img/labs/lab0_gitfig4.png)
+![fig4_git](img/lab0_gitfig4.png)
 
 ```shell
 ~/Desktop/lab0 $ git remote add origin [su URL de su repo remoto aqui]
@@ -231,7 +228,7 @@ Actualizamos el repositorio remoto:
 
 Y en **Github** se tiene que ver asi:
 
-[![github initial commit](/assets/img/labs/lab0_initialcommit.png)](/assets/img/labs/lab0_initialcommit.png)
+[![github initial commit](img/lab0_initialcommit.png)](img/lab0_initialcommit.png)
 
 Con esto ya listo podemos empezar a programar (?)
 
